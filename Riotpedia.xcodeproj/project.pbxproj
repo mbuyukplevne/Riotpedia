@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		2E10CFFA2966C21800E1D12C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10CFF92966C21800E1D12C /* AppDelegate.swift */; };
 		2E10CFFC2966C21800E1D12C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10CFFB2966C21800E1D12C /* SceneDelegate.swift */; };
-		2E10CFFE2966C21800E1D12C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10CFFD2966C21800E1D12C /* ViewController.swift */; };
+		2E10CFFE2966C21800E1D12C /* ChampionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10CFFD2966C21800E1D12C /* ChampionsVC.swift */; };
 		2E10D0012966C21800E1D12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E10CFFF2966C21800E1D12C /* Main.storyboard */; };
 		2E10D0032966C21800E1D12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E10D0022966C21800E1D12C /* Assets.xcassets */; };
 		2E10D0062966C21800E1D12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E10D0042966C21800E1D12C /* LaunchScreen.storyboard */; };
+		2E10D0112966C29A00E1D12C /* Champions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10D0102966C29A00E1D12C /* Champions.swift */; };
+		2E10D0132966C55200E1D12C /* ChampionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10D0122966C55200E1D12C /* ChampionsView.swift */; };
+		2E10D0152966C62600E1D12C /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10D0142966C62600E1D12C /* Dataset.swift */; };
+		2E10D0172966D3FF00E1D12C /* ChampionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10D0162966D3FF00E1D12C /* ChampionsCell.swift */; };
+		2E10D0192966E72400E1D12C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10D0182966E72400E1D12C /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E10CFF62966C21800E1D12C /* Riotpedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riotpedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E10CFF92966C21800E1D12C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E10CFFB2966C21800E1D12C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E10CFFD2966C21800E1D12C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E10CFFD2966C21800E1D12C /* ChampionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsVC.swift; sourceTree = "<group>"; };
 		2E10D0002966C21800E1D12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E10D0022966C21800E1D12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E10D0052966C21800E1D12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E10D0072966C21800E1D12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E10D0102966C29A00E1D12C /* Champions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champions.swift; sourceTree = "<group>"; };
+		2E10D0122966C55200E1D12C /* ChampionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsView.swift; sourceTree = "<group>"; };
+		2E10D0142966C62600E1D12C /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		2E10D0162966D3FF00E1D12C /* ChampionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsCell.swift; sourceTree = "<group>"; };
+		2E10D0182966E72400E1D12C /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,44 @@
 		2E10CFF82966C21800E1D12C /* Riotpedia */ = {
 			isa = PBXGroup;
 			children = (
+				2E10D00F2966C25100E1D12C /* Model */,
+				2E10D00E2966C24B00E1D12C /* View */,
+				2E10D00D2966C24200E1D12C /* Controller */,
 				2E10CFF92966C21800E1D12C /* AppDelegate.swift */,
 				2E10CFFB2966C21800E1D12C /* SceneDelegate.swift */,
-				2E10CFFD2966C21800E1D12C /* ViewController.swift */,
 				2E10CFFF2966C21800E1D12C /* Main.storyboard */,
 				2E10D0022966C21800E1D12C /* Assets.xcassets */,
 				2E10D0042966C21800E1D12C /* LaunchScreen.storyboard */,
 				2E10D0072966C21800E1D12C /* Info.plist */,
 			);
 			path = Riotpedia;
+			sourceTree = "<group>";
+		};
+		2E10D00D2966C24200E1D12C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E10CFFD2966C21800E1D12C /* ChampionsVC.swift */,
+				2E10D0182966E72400E1D12C /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E10D00E2966C24B00E1D12C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E10D0162966D3FF00E1D12C /* ChampionsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E10D00F2966C25100E1D12C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E10D0102966C29A00E1D12C /* Champions.swift */,
+				2E10D0122966C55200E1D12C /* ChampionsView.swift */,
+				2E10D0142966C62600E1D12C /* Dataset.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E10CFFE2966C21800E1D12C /* ViewController.swift in Sources */,
+				2E10D0152966C62600E1D12C /* Dataset.swift in Sources */,
+				2E10D0132966C55200E1D12C /* ChampionsView.swift in Sources */,
+				2E10D0172966D3FF00E1D12C /* ChampionsCell.swift in Sources */,
+				2E10D0112966C29A00E1D12C /* Champions.swift in Sources */,
+				2E10CFFE2966C21800E1D12C /* ChampionsVC.swift in Sources */,
+				2E10D0192966E72400E1D12C /* DetailVC.swift in Sources */,
 				2E10CFFA2966C21800E1D12C /* AppDelegate.swift in Sources */,
 				2E10CFFC2966C21800E1D12C /* SceneDelegate.swift in Sources */,
 			);
